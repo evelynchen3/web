@@ -5,17 +5,28 @@
   2021-02-24
 */
 
+/* for h4, p, li ... */
+h4, p, li {
+    color: lightcyan; /* change text color to light cyan*/
+    font-family: Apple Chancery, cursive;   /* change text font to family name Apple Chancery */
+}
+
+/* for h1, h2, h3 ... */
+h1, h2, h3 {
+    color: palegoldenrod; /* change text color to pale golden rod */
+    font-family: Apple Chancery, cursive;   /* change text font to family name Apple Chancery */
+}
+
+
 /* for body... */
 body {
     background-color: slategray; /* change background color to slategray */
-    color: lightcyan; /* change text color to light cyan*/
-    font-family: Apple Chancery, cursive;   /* change text font to family name Apple Chancery */
 }
 
 /* for the "div" marked text... */
 div {
   border: 0.5rem outset skyblue; /* create a sky blue border */
   box-shadow: 0 0 0 2rem skyblue; /* border "shadow" color*/
-  padding: 1rem; /* padding between border and text*/
+  padding: 1rem; /* space between border and text*/
 }
 
